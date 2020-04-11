@@ -5,6 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Todo.destroy_all;
 
 Todo.create(title: "Morning Walk", done: "true");
 Todo.create(title: "Meeting with Hyo", done: "true");
