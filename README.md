@@ -4,21 +4,18 @@
 
 * Rails version: 6.0.2.2
 
-### Run the project 
+### Install dependencies
+- bundle && yarn
+
+### Initialize the database
 - rails db:seed
+
+### Run the project 
 - rails s (it should run on localhost:3000)
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-- PostgreSQL 11
-- Includes a model called, "Todos" with two attributes.
-
-* Database initialization
-
-* How to run the test suite
-- rspec
+### How to run the test suite
+- rspec <br/>
+The project is testing todo model for a validation test to check a successful todo data must include "title" attribute.
+Because "title" is the main attribute of todo model, it is critical to check a new todo data includes the attribute when passed from the client side to the database. 
 
 
